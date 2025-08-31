@@ -19,7 +19,11 @@ export default function Form() {
   };
 
   return (
-    <form onSubmit={handleSubmit(handleForm)} className="sm:w-2xl w-full">
+    <form
+      id="form"
+      onSubmit={handleSubmit(handleForm)}
+      className="sm:w-2xl w-full"
+    >
       <div className="rounded-lg bg-white outline-1 -outline-offset-1 outline-gray-300 focus-within:outline-2 focus-within:-outline-offset-2 focus-within:outline-indigo-600 dark:bg-gray-800/50 dark:outline-white/10 dark:focus-within:outline-indigo-500">
         <input
           id="title"
