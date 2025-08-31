@@ -1,16 +1,15 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.tsx'
-import Layout from './components/layout.tsx'
-import Footer from './components/footer.tsx'
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import "./index.css";
+import App from "./App.tsx";
+import Layout from "./components/layout.tsx";
+import Footer from "./components/footer.tsx";
 
-
-createRoot(document.getElementById('root')!).render(
+createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <Layout>
       <App />
-      <Footer/>
+      <Footer />
     </Layout>
-  </StrictMode>,
-)
+  </StrictMode>
+);
