@@ -1,1 +1,1 @@
-web: fastapi dev src/main.py --host=0.0.0.0 --port=8000
+web: fastapi dev src/main.py --host=0.0.0.0 --port=${PORT}
