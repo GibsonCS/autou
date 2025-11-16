@@ -22,7 +22,7 @@ def classificar_email(text):
     client =  genai.Client()
 
     message = (
-    f"Classifique o texto a seguir como produtivo ou improdutivo no seguinte exemplo: 'Categoria: produtivo', 'Resposta automática: texto' "
+    f"Classifique o texto a seguir como produtivo ou improdutivo. Leve em consideração mensagens de fato que sejam produtivas para o trabalho. Segue o exemplo de resposta: 'Categoria: produtivo', 'Resposta automática: texto' "
     f"Após a classificação, me informe uma resposta automática referente ao texto no campo resposta automática. "
     f"Text: {tokens_filtrados}"
 )
